@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Randomize a team</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Randomize</h1>
+
+    <main>
+        <div class="random-container">
+        <p>Having trouble dividing yourself into one or more groups?<br><br> Use the team randomizer below 👇</p>
+        <label for="names">Names (seperate with comma):</label>
+        <input type="text" id="names" placeholder="Ex: Linda, Capsian, Casandra..">
+
+        <label for="teams">Select number of teams:</label>
+        <select id="teams">
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>
+
+        <button class="button" id="randomizeBtn">Shoot 🎲</button>
+
+        <h2>Results 🏆</h2>
+        <div id="result"></div>
+
+        </div>
+    </main>
+    <footer> 2025 &copy; Cathrine Olsson</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

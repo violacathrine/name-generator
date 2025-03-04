@@ -1,0 +1,125 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: pink;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(176, 24, 49);
+    font-size: 60px;
+}
+
+h2 {
+color:  rgb(176, 24, 49);
+}
+
+main {
+    flex: 1;
+}
+
+.random-container {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+
+}
+ 
+.random-container p {
+    font-size: 20px;
+}
+
+/* Styla label */
+label {
+    display: block; /* Gör att label hamnar på egen rad */
+    font-size: 20px;
+    margin: 10px 0 5px; /* Lägger lite avstånd ovanför och under */
+    color: #000000; /* Mörkare text för bättre kontrast */
+}
+
+/* Styla input och select */
+input[type="text"], select {
+    width: 90%;
+    max-width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #b01631;
+    background-color: #fff;
+    border-radius: 10px;
+    color: #000000;
+    outline: none;
+    transition: 0.3s;
+    text-align: center;
+}
+
+/* Effekter vid fokus */
+input[type="text"]:focus, select:focus {
+    border-color: #8a0f27;
+    box-shadow: 0px 0px 5px rgba(176, 22, 49, 0.5);
+}
+
+/* Extra styling för select */
+select {
+    cursor: pointer;
+    appearance: none; /* Tar bort standardutseendet på vissa browsers */
+    background-color: #fff;
+}
+
+/* Lägg lite mellanrum */
+.random-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.button {
+    padding: 10px;
+    width: 200px;
+    font-size: 20px;
+    background-color: rgb(176, 24, 49);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+    #result {
+        margin-top: 10px;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+        color: rgb(176, 24, 49);
+        padding: 15px;
+        display: inline-block;
+        line-height: 1.6;
+    }
+
+    #result strong {
+        display: block;
+        font-size: 20px;
+        margin-bottom: 5px;
+        color: rgb(139, 19, 42);
+    }
+
+#result p {
+    margin-bottom: 25px;
+}
+
+footer {
+    width: 100%;
+    font-size: 20px;
+    color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(176, 24, 49);
+    height: 200px;
+}
