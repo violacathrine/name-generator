@@ -1,1 +1,1 @@
-#name-generator
+Randomize generator
